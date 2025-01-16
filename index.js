@@ -12,7 +12,7 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-  res.send('api testing');
+  res.send('demo api');
 });
 
 let hotels = [
